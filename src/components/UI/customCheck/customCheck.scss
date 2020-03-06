@@ -1,0 +1,28 @@
+
+.customCheck{
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #B8A772;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    i{  cursor: pointer;
+        font-size: 18px;
+        color: #B8A772;
+        line-height: 33px;
+        display: none;
+    }
+}
+
+.checkTrue{
+    i{
+     display: block;   
+    }
+    
+}

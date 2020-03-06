@@ -1,0 +1,28 @@
+
+
+
+.recordBlock{
+    background: linear-gradient(180deg, #14041D 0%, #370B50 52.03%, #14041D 54.4%), #14041D;
+    width: 614px;
+    height: 118px;
+    position: fixed;
+    z-index: 8888;
+    bottom: 0;
+    left: 653px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: none;
+
+}
+
+.showRecordBlock{
+    display: block;
+    width: 614px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

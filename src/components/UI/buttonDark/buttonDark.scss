@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+.btnDark{
+    outline: none;
+    background: #14041D;
+    border: 1px solid #B8A772;
+    border-radius: 6px;
+
+    min-width: 132px;
+    height: 46px;
+
+
+    color: #B8A772;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.btnDark:hover{
+    box-shadow: 0px 0px 10px 10px  rgba(230, 186, 54, 0.2);
+}
+
+.btnDark:active{
+    outline: none;
+    box-shadow: 0px 0px 8px 4px  rgba(230, 186, 54, 0.2), inset 0px 0px 8px 4px  rgba(230, 186, 54, 0.2) ;
+
+}
+.btnDark:focus{
+    outline: none;
+}
+
+
+// @media screen and (max-width: 1200px){
+//     .btnDark{
+//       width: 115px;
+//     height: 43px;
+//     font-size: 18px;  
+//     }
+    
+// }
+
+
+// @media screen and (max-width: 992px){
+//     .btnDark{
+//        width: 98px;
+//     height: 40px;
+//     font-size: 15px;  
+//     }
+   
+// }
+
+
+
+
+// @media screen and (max-width: 768px){
+//     .btnDark{
+//         width: 83px;
+//     height: 36px;
+//     font-size: 12px;
+//     line-height: 14px; 
+//     }
+   
+// }
+
+// @media screen and (max-width: 576px){
+    
+// }
+
+// @media screen and (max-width: 400px){
+    
+// }

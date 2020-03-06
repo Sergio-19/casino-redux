@@ -1,0 +1,67 @@
+.homePage{
+    position: relative;
+    
+}
+.homePageWrap{
+    padding-right: 159px;
+    padding-left: 159px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // position: relative;
+
+    
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.homePageContentDouble{
+    height: 100%;
+    width: 993px;
+    margin: 0;
+    padding: 0;
+    background: #14041D;
+    // position: absolute;
+}
+
+.homePageContent{
+    position: absolute;
+    overflow: scroll;
+    height: 100%;
+    width: 993px;
+    margin: 0;
+    padding: 0;
+    // display: none;
+  
+    
+   
+}
+
+.homePageFoot{
+    width: 63.3%;
+    height: 13.7%;
+    padding-top: 20px;
+    
+    background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+    display: flex;
+    justify-content: center;
+    :first-child{
+       
+        
+
+    }
+}
+
+// @media screen and(max-width: 768px){
+//     .homePageWrap{
+//         width: 100%;
+//         display: flex;
+//         flex-direction: column-reverse;
+//     }
+//     .homePageContent{
+//         width: 100%;
+//     }
+// }

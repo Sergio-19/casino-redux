@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap');
+
+
+
+
+.modalRecord{
+    cursor: default;
+    width: 591px;
+    height: 825px;
+    position: fixed;
+    margin: auto;
+    top: 220px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+
+    background: linear-gradient(180deg, #14041D 0%, #370B50 49.81%, #14041D 100%);
+    border: 1px solid #B8A772;
+    border-radius: 6px;
+
+    
+    i{
+        cursor: pointer;
+        position: absolute;
+        font-size: 44px;
+        
+        color: #B8A772;
+        top: 38px;
+        right: 38px;
+    }
+    display: none;
+    i:hover{
+        
+        color: rgb(138, 126, 91);
+        
+}
+}
+
+.showModalRecord{
+    display: block;
+}
+
+.modalRecordWrap{
+
+}
+
+.modalRecordHead{
+    text-align: center;
+    h2{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 106px;
+        color: #B8A772;
+
+    }
+}
+
+
+.modalRecordContent{
+
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li:last-child{
+            height: 80px;
+        }
+
+        li{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 35px;
+            line-height: 53px;
+            color: #B8A772;
+
+
+            display: inline-block;
+            width: 100%;
+            height: 88.1px;
+            
+            p{
+                display: inline-block;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+
+                :last-child{
+                    display: inline-block;
+                    width: 187px;
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+.modalRecordFoot{
+    width: 100%;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    :first-child{
+        :first-child{
+            width: 254px;
+            height: 70px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+           
+        }
+    }
+    
+
+    
+}

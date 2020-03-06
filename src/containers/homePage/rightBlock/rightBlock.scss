@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.rightBlock{
+    
+    background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+    width: 284px;
+    height: 100vh;
+    margin-left: 8px;
+    
+}
+
+.score{
+    cursor: default;
+    background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+    text-align: center;
+    padding-top: 19px;
+    padding-top: 16px;
+    p{
+        font-family: Raleway;
+        font-style: normal;
+        // font-weight: 200;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+
+        color: #B8A772;
+    }
+
+    span{
+        background: #370B50;
+        // margin-top: 15px;
+        margin-bottom: 15px;
+        display: inline-block;
+        width: 244px;
+        height: 45px;
+        border: 1px solid #B8A772;
+        border-radius: 6px    ;
+        -webkit-border-radius: 6px    ;
+        -moz-border-radius: 6px    ;
+        -ms-border-radius: 6px    ;
+        -o-border-radius: 6px    ;
+
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 27px;
+        color: #B8A772;
+        img{
+            width: 10px;
+            height: 10px;
+            margin-left: 10px;
+        }
+    }
+    span:hover{
+        box-shadow: 0px 0px 10px 10px  rgba(230, 186, 54, 0.2);
+    }
+
+    }
+
+    .jackpot{
+        cursor: default;
+        background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+        text-align: center;
+        width: 100%;
+       
+        
+        
+        img{
+            width: 173px;
+            height: 54px;
+            margin-top: 13px;
+            margin-bottom: 13px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding:0;
+            :last-child{
+                margin-bottom: 40px;
+            }
+
+            li{
+                background: #370B50;
+                padding-right: 25px;
+                display: inline-block;
+                width: 244px;
+                height: 45px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                border: 1px solid #B8A772;
+                border-radius: 6px    ;
+                -webkit-border-radius: 6px    ;
+                -moz-border-radius: 6px    ;
+                -ms-border-radius: 6px    ;
+                -o-border-radius: 6px    ;
+
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 40px;
+
+                color: #B8A772;
+            }
+        }
+    }
+
+    .poligonArrow{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+
+.denominationSpan{
+    cursor: pointer;
+}

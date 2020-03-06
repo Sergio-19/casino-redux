@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.leftBlock{
+    
+    background: #0A0410;
+    width: 284px;
+    height: 100vh;
+    margin-right: 17px;
+    
+}
+
+.allGames{
+    cursor: pointer;
+    width: 284px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 86px;
+    text-align: center;
+    background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+    line-height: 82px;
+    span{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        
+        color: #B8A772;
+
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.allGamesWrap{
+    width: 100%;
+    height: 80%;
+}
+
+
+.gamesIcons{
+   transition: all .4s ease-in; 
+   -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+}
+
+.gameItem{
+    cursor: pointer;
+    
+    width: 100%;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    span{
+  font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 80px;
+text-align: center;
+
+color: #B8A772;  
+}
+
+
+}
+
+.gameItem:active{
+    background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+}
+
+.gameItem3{
+    img{
+        width: 151px;
+        height: 100%;
+    }
+}
+
+
+
+.gameItem4{
+    img{
+        width: 186px;
+        height: 68px;;
+    }
+}
+
+.gameItem5{
+    img{
+        width: 152px;
+        height: 52px;;
+    }
+}
+
+.gameItem6{
+    
+}
+
+
+
+.gameItemText:hover{
+    span{
+        font-size: 45px;
+        color: #eeedb6;
+        
+    }
+}
+
+.gameItemText:active{
+    span{
+        font-size: 30px;
+    }
+}
+
+.allGames:hover{
+    span{
+        font-size: 40px;
+        color: #eeedb6;
+    }
+}
+
+.allGames:active{
+    span{
+        font-size: 30px;
+        
+    }
+}
+
+.gameItemBelatra:hover{
+    img{
+        width: 210px;
+        height: 120px;
+    }
+
+}
+
+.gameItemBelatra:active{
+    img{
+       width: 170px;
+    height: 96px;  
+    }
+   
+}
+
+.gameItemIgrosoft:hover{
+    img{
+        width: 190px;
+        height: 100px;
+    }
+}
+
+.gameItemIgrosoft:active{
+    img{
+        width: 151px;
+        height: 87px;
+    }
+}
+
+.gameItemJack:hover{
+    img{
+        width: 234px;
+        height: 86px;
+    }
+}
+
+.gameItemJack:active{
+    img{
+        width: 186px;
+        height: 68px;
+    }
+}
+
+.gameItemNovomatic:hover{
+    img{
+        width: 190px;
+        height: 62px;
+    }
+}
+
+.gameItemNovomatic:active{
+    img{
+        width: 152px;
+        height: 52px;
+       
+    }
+}
+
+.blockColor{
+    background: linear-gradient(180deg, #14041D 0%, #370B50 50%, #14041D 100%), #370B50;
+    width: calc( + 20%);
+    height: calc( + 20%);
+}

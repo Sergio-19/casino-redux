@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.profilePage{
+    width: 100%;
+    background: #14041D;
+    padding-top: 15px;
+    padding-bottom: 10px;
+   
+}
+
+.profile{
+    cursor: default;
+    width: 993px;
+    height: 824px;
+    margin: 0 auto;
+    border: 1px solid #B8A772;
+    border-radius: 6px;
+    text-align: center;
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+   h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 67px;  
+    color:#B8A772;
+    }
+    
+}
+
+.profileCheck{
+    width: 100%;
+    height: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        button{
+            width: 254px;
+            height: 70px;
+            margin-bottom: 3vw;
+        }
+        p{
+            input{
+                cursor: pointer;
+                
+            }
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            color: #B8A772;
+            a{
+                font-family: Raleway;
+                cursor: pointer;
+                color: #B8A772;
+                text-decoration: none;
+                font-size: 22px;  
+            }
+            strong{
+                font-family: Raleway;
+                cursor: pointer;
+            }
+            strong:hover{
+                color: #CCBB7A;
+            }
+        }
+        span{
+            cursor: pointer;
+        }
+    }
+    
+}
+
+.profileFoot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    div{
+        width: 40%;
+        p{
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+        text-align: center;
+
+        color: #B8A772; 
+        strong{
+            font-size: 19.5px;
+            line-height: 40px;
+        } 
+        }
+    }
+}
+
+.profileCheckContent{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.question{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 67px;  
+        color:#B8A772; 
+    }
+}
+.btnBlock{
+    :first-child{
+        margin-right: 20px;
+    }
+
+}
+
+.pollResult{
+    padding-top: 40px;
+    width: 100%;
+    height: 60%;
+    h3{
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 67px;  
+        color:#B8A772;
+    }
+    span{
+        font-size: 55px;
+    }
+}
+
+
+.btnBlockResult{
+    :first-child{
+       :first-child{
+        margin-bottom: 25px;
+    } 
+    }
+    
+}
+

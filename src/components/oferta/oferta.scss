@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap');
+
+.ofertaWrap{
+    
+    cursor: default;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 997px;
+    height: 825px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    // text-align: center;
+    background: linear-gradient(180deg, #14041D 0%, #370B50 49.81%, #14041D 100%);
+    border: 1px solid #B8A772;
+    border-radius: 6px;
+    // text-align: center;
+    h3{
+        text-align: center;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 60px;
+        color: #B8A772;
+    }
+    p{
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+
+        color: #9F9F9F;
+    }
+    div{
+        overflow: auto;
+        height: 650px;
+        width: 745px;
+        margin: 10px auto;
+        // margin-bottom: 2vw;
+        // padding-left: 12.6%;
+        // padding-right: 12.6%;
+    }
+   
+    :last-child{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        :first-child{
+            width: 220px;
+            
+            height: 46px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            
+            
+        }
+    }
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.ofertaText{
+    width: 100%;
+}
